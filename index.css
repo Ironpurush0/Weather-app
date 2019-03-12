@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+#second-base {
+	height: 100vh;
+}
+
+#title {
+	font-weight: bold;
+	font-size: 80px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#city {
+	font-size: 60px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+	margin-top: 20%;
+}
+
+#tmep {
+	font-size: 40px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#condition {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 60px;
+}
+
+.icons {
+	margin-right: 20px;
+}
+
+#icon-contain {
+	width: 128px;
+	height: 128px;
+	top: 15%;
+	left: 70%;
+	transform: translate(-15%, -70%);
+	position: absolute;
+}
+
+#temperature-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+}
